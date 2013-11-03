@@ -1,3 +1,3 @@
 puts "This is the first (master) program file."
-load "loadee.rb"
+require "/home/lee/projects/WGrubyist/loadee"
 puts "And back again to the first file."
