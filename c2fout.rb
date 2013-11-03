@@ -5,7 +5,7 @@ puts "Saving result to output file 'temp.out'"
 fh = File.new("temp.out", "w")
 fh.puts fahrenheit
 fh.close
-num = File.read("temp.out")
+num = File.read(temp.out)
 fahrenheit = num.to_i
 puts "The Fahrenheit conversion is: "
 print fahrenheit
