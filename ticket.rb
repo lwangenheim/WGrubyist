@@ -19,6 +19,10 @@ def ticket.date
 	"01/02/03"
 end
 
+def discount(percent)
+  @price = @price * (100-percent)/100.0
+end
+
 puts "This ticket is for: #{ticket.event}, at #{ticket.venue}." +
      "The performer is #{ticket.performer}." +
      "The seat is #{ticket.seat}, " +
