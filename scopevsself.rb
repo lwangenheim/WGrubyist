@@ -4,15 +4,15 @@ class C
 
 				a = value_for_a
 			  puts "Here's the inspect- string for 'self':"
-				puts self
+				puts self.object_id
 				puts "And here's a:"
-				puts a
+				puts a.object_id
 
 				if recurse 
 					puts "Recursing by calling myself..."
 					x("Second value for a")
 					puts "Back after recursion; here's a:"
-					puts a 
+					puts a.object_id
 				end
 	end
 end
